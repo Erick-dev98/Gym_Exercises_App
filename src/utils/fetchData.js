@@ -1,5 +1,5 @@
 export const exerciseOptions = {
-    url : 'https://exercisedb.p.rapidapi.com/status',
+    url : 'https://exercisedb.p.rapidapi.com/exercises',
     method: 'GET',
     headers: {
         'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
